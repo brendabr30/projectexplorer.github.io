@@ -50,27 +50,16 @@ nav a:hover {
     border-bottom: 4px solid #5cb0ff;
 }
 
-article h1 {
-    margin-bottom: 8px;
+article {}
+
+figure {}
+
+gigcaption{
+font-size: 12px;
 }
 
-article h1+img {
-    margin-bottom: 24px;
-}
-
-article h2 {
-    margin-bottom: 12px;
-}
-
-aside h3 {
-    font-size: 14px;
-    margin-bottom: 4px;
-    margin-top: 32px;   
-}
-
-aside h3:first-child {
-    margin-bottom: 10px;
-    margin-top: 10px;
+aside {
+    padding-top: 10px;
 }
 
 aside ul {
@@ -84,7 +73,7 @@ aside a {
 }
 
 aside a:after {
-   content: " >";
+   content: "FOO";
 }
 
 figure {
@@ -129,7 +118,7 @@ footer li{ color: lime; }
 .twothird {
     float: left;
     padding-right: 8%; 
-    width: 58%;    
+    width: 56%;    
 }
 
 .half {
