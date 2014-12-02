@@ -18,12 +18,41 @@ h1 {
     line-height: 48px;
 }
 
+h1 {
+    color: #F7EAEA
+
+
+}
+
+h1 {background-color: #494040
+
+}
+
 h2 {
     font-size: 24px;
     line-height: 32px;
     margin-bottom: 8px;
 }
 
+h2 {
+    background-color: #F5A9F2
+
+
+}
+
+
+
+h3 {
+    font-size: 19px;
+    font-stretch: extra-condensed
+
+
+}
+
+h4 {
+    font-style: normal
+
+}
 
 p {
     margin-bottom: 24px;
@@ -35,6 +64,14 @@ img {
 
 header {
     margin-bottom: 10px;
+}
+
+header {background-color: #B40431
+
+}
+
+header {font-style: comic sans;
+
 }
 
 nav a {
@@ -50,16 +87,27 @@ nav a:hover {
     border-bottom: 4px solid #5cb0ff;
 }
 
-article {}
-
-figure {}
-
-gigcaption{
-font-size: 12px;
+article h1 {
+    margin-bottom: 8px;
 }
 
-aside {
-    padding-top: 10px;
+article h1+img {
+    margin-bottom: 24px;
+}
+
+article h2 {
+    margin-bottom: 12px;
+}
+
+aside h3 {
+    font-size: 14px;
+    margin-bottom: 4px;
+    margin-top: 32px;
+}
+
+aside h3:first-child {
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 aside ul {
@@ -73,7 +121,7 @@ aside a {
 }
 
 aside a:after {
-   content: "FOO";
+   content: " >";
 }
 
 figure {
@@ -81,28 +129,28 @@ figure {
 }
 
 figcaption {
-    font-size: 12px;
+    font-size: 17px;
     margin-bottom: 24px;
     margin-top: -6px;
 }
 
 
 footer {
-    background-color: #5cb0ff;
+    background-color: #FF8000;
     clear: both;
-    color: #ffffff;
+    color: #0A2A29;
+    flex-basis:
 }
 
 footer ul {
     list-style-type: none;
-}
 
-footer li{ color: lime; }
+}
 
 .wrapper {
     margin: 0 auto;
-    max-width: 960px;
-    
+    max-width: 600px;
+
 }
 
 .full, .third, .half {
@@ -111,14 +159,14 @@ footer li{ color: lime; }
 
 .third {
     float: left;
-    padding-right: 2%; 
+    padding-right: 2%;
     width: 32%;
 }
 
 .twothird {
     float: left;
-    padding-right: 8%; 
-    width: 56%;    
+    padding-right: 8%;
+    width: 58%;
 }
 
 .half {
@@ -143,7 +191,7 @@ footer li{ color: lime; }
 }
 
 .banner {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', "calibri";
     text-align: center;
 }
 
@@ -163,7 +211,7 @@ footer li{ color: lime; }
     background-color: #5cb0ff;
     padding: 8px 0;
     text-align: center;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 .promo.level-middle h3 {
@@ -175,7 +223,7 @@ footer li{ color: lime; }
 }
 
 .promo h3 a {
-    color: #ffffff;
+    color: #fffff;
     text-decoration: none;
 }
 
@@ -190,14 +238,14 @@ footer li{ color: lime; }
     .wrapper {
         width: 95%;
     }
-    
+
     .half, .third, .twothird {
         width: 100%;
     }
-    
+
     .banner p {
         padding: 0;
-        text-align: left;   
+        text-align: left;
     }
-    
+
 }
